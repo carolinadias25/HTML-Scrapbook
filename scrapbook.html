@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Html-scrapbook</title>
+</head>
+<body>
+    <h1>Learning HTML</h1>
+    <h2>Challenge: Create a HTML scrapbook</h2>
+    <h2>My scrap book</h2>
+<div>
+  <a href="https://pixabay.com/images/search/yoga/"><img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2020/3/29/w1200X800/cxvxcv.jpg" width="500" height="320" alt="Yoga"></a>
+
+  <p>Click here to view more <a href="https://pixabay.com/images/search/yoga/"> yoga photos</a>.</p>
+</div>
+  <p><q>Life is short, live the present.</q> </p>
+      
+  <p>Things I like to do:</p>
+  <ul>
+    <li>yoga</li>
+    <li>read</li>
+    <li>eat</li>
+  </ul>
+  <p>Top 3 things I hate:</p>
+  <ol>
+      <li>being late</li>
+      <li>lies</li>
+      <li>rain</li>
+  </ol>
+  <p>Can you guess what my favorite <span style="color:rgb(102, 219, 213)">color </span> is?</p>
+ <button onclick="myFunction()">Press it to reveal!</button>
+ <script>
+    function myFunction() {
+        var x = 
+        document.createElement ('SPAN');
+        var t = 
+        document.createTextNode("It is BLUE.");
+        x.appendChild (t);
+        document.body.appendChild (x);
+    }
+ </script>
+</body>
+</html>
